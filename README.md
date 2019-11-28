@@ -33,7 +33,7 @@ Here are three options to install Python - please pick one.
 ### Download the workshop material
 - Open up the terminal / command prompt and navigate to where you would like to store the workshop.
 - Type:
-`git clone git@github.com:bjader/quantum-coding-tutorial.git`
+`git clone https://github.com/bjader/quantum-coding-tutorial.git`
 
 Alternatively:
 - Scroll up to the top of this page.
@@ -42,7 +42,7 @@ Alternatively:
 
 ## Check everything is working
 
-- Open up the terminal / command prompt and navigate to where you saved the workshop.
+- Open up the terminal / command prompt and navigate to where you saved the workshop. For Mac / Linux type `cd path/to/folder`. For Windows command prompt type `cd /d c:\path\to\folder`, which assumes you are in the c: drive.
 - Type
 `jupyter notebook index.ipynb`
 - If all has been successful, your browser will open and display the workshop!
