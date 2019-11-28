@@ -31,8 +31,8 @@ Here are three options to install Python - please pick one.
 `pip3 install qiskit`
 
 ### Download the workshop material
-- Open up the terminal / command prompt and navigate to where you would like to store the workshop.
-- Type:
+- Open up the terminal / command prompt and navigate to the folder where you would like to store the workshop. For Mac / Linux type `cd path/to/folder`. For Windows command prompt type `cd /d c:\path\to\folder`, which assumes you are in the c: drive.
+- Next, type:
 `git clone https://github.com/bjader/quantum-coding-tutorial.git`
 
 Alternatively:
@@ -42,7 +42,7 @@ Alternatively:
 
 ## Check everything is working
 
-- Open up the terminal / command prompt and navigate to where you saved the workshop. For Mac / Linux type `cd path/to/folder`. For Windows command prompt type `cd /d c:\path\to\folder`, which assumes you are in the c: drive.
+- Open up the terminal / command prompt and navigate to where you saved the workshop. For Mac / Linux type `cd path/to/folder/quantum-coding-tutorial`. For Windows command prompt type `cd /d c:\path\to\folder\quantum-coding-tutorial`, which assumes you are in the c: drive.
 - Type
 `jupyter notebook index.ipynb`
 - If all has been successful, your browser will open and display the workshop!
