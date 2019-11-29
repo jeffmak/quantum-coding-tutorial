@@ -17,22 +17,26 @@ By the end of this you should have:
 
 ### Python 3
 Here are three options to install Python - please pick one.
-- Recommended: Install Anaconda (https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
+- **Recommended for all, essential for Windows**: Install Anaconda (https://docs.conda.io/projects/conda/en/latest/user-guide/install/). 
 - Install Miniconda using the same link as above. This is a smaller download size but requires an extra step later.
 - Install Python directly (https://wiki.python.org/moin/BeginnersGuide/Download).
 
 ### Jupyter
 - If you installed Anaconda, you will already have Jupyter.
-- Otherwise open up the terminal / command prompt and type:
+- Otherwise **Mac/Linux:** Open up the terminal and type
 `pip3 install jupyter`
 
 ### Qiskit
-- Open up the terminal / command prompt and type
+
+- **Mac/Linux:** Open up the terminal and type
 `pip3 install qiskit`
+- **Windows:** Open Anaconda Prompt from the start menu. Once it's open, type
+`pip install qiskit`
 
 ### Download the workshop material
-- Open up the terminal / command prompt and navigate to the folder where you would like to store the workshop. For Mac / Linux type `cd path/to/folder`. For Windows command prompt type `cd /d c:\path\to\folder`, which assumes you are in the c: drive.
-- Next, type:
+- **Mac/Linux:** Open up the terminal and navigate to the folder where you would like to store the workshop by typing`cd path/to/folder`. For example, type `cd Downloads` if you want to save it in your Downloads.
+- **Windows:** Open up Anaconda Prompt and navigate to the folder where you would like to store the workshop by typing`cd path\to\folder`. For example, type `cd Downloads` if you want to save it in your Downloads.
+- **All operating systems** type:
 `git clone https://github.com/bjader/quantum-coding-tutorial.git`
 
 Alternatively:
@@ -42,7 +46,10 @@ Alternatively:
 
 ## Check everything is working
 
-- Open up the terminal / command prompt and navigate to where you saved the workshop. For Mac / Linux type `cd path/to/folder/quantum-coding-tutorial`. For Windows command prompt type `cd /d c:\path\to\folder\quantum-coding-tutorial`, which assumes you are in the c: drive.
-- Type
+- **Mac/Linux:** Open up the terminal and navigate to where you saved the workshop
+`cd path/to/folder/quantum-coding-tutorial`
+- **Windows:** Open Anaconda Prompt and navigate to where you saved the workshop
+`cd path\to\folder\quantum-coding-tutorial`
+- **All operating systems** type
 `jupyter notebook index.ipynb`
 - If all has been successful, your browser will open and display the workshop!
